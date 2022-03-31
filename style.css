@@ -213,7 +213,7 @@ ul .navbar-link{
   text-transform: uppercase;
 }
 
-.button {
+button .button {
   color: black;
   background-color: white;
   border-radius: 0px;
@@ -268,12 +268,12 @@ ul .navbar-link{
   color: white;
 }
 
-.img-container:hover::after, .img-container:focus::after{
+.img-container:hover::after, .img-container:focus::after, .img-container:active::after{
   content: "";
   background: rgba(255,255,255,0.7);
 }
 
-.img-container:hover, .img-container:focus{
+.img-container:hover, .img-container:focus, .img-container:active{
   color: black;
 }
 
