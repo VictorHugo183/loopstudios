@@ -526,7 +526,7 @@ footer{
 
 /* LANDSCAPE HERO and MOBILE NAV FIX: */
 
- @media screen and (orientation:landscape) {
+ @media (max-width:920px) and (orientation:landscape) {
   .header{
     height: auto;
     padding-bottom: 2rem;
